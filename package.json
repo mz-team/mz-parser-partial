@@ -1,0 +1,25 @@
+{
+  "name": "mz-parser-partial",
+  "version": "1.0.0",
+  "description": "fis3 parser to support ssi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mz-team/mz-parser-partial.git"
+  },
+  "keywords": [
+    "fis3",
+    "mz",
+    "parser",
+    "ssi"
+  ],
+  "author": "kaiye",
+  "license": "0BSD",
+  "bugs": {
+    "url": "https://github.com/mz-team/mz-parser-partial/issues"
+  },
+  "homepage": "https://github.com/mz-team/mz-parser-partial#readme"
+}
