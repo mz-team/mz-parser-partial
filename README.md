@@ -22,7 +22,7 @@ fis.match('*.tpl', {
 
 默认输出
 ```
-<{include file="{{namespace}}/page/_partial/header.tpl"}>
+<{ssi file="{{namespace}}/page/_partial/header.tpl"}>
 ```
 
 配置为 ssi 后输出
