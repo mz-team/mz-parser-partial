@@ -13,7 +13,7 @@ module.exports = function (content, file, settings) {
     if (type === 'ssi') {
       return '<!--#include virtual="{{urlprefix}}/_partial/' + arg + '.html"-->';
     } else {
-      return '<{include file="{{namespace}}/page/_partial/' + arg + '.tpl"}>';
+      return '<{ssi file="{{namespace}}/page/_partial/' + arg + '.tpl"}>';
     }
   });
 }
